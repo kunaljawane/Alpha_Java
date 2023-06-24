@@ -4,9 +4,9 @@ class HelloWorld {
         Scanner sc=new Scanner(System.in);
 
         int a,b;
-        System.out.println("Enter the 1st number:");
+        System.out.print("Enter the 1st number:");
         a=sc.nextInt();
-        System.out.println("Enter the 2nd number:");
+        System.out.print("Enter the 2nd number:");
         b=sc.nextInt();
         System.out.println("The sum of two number is:"+(a+b));
 
