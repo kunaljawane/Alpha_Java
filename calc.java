@@ -1,6 +1,5 @@
 import java.util.*;
 
-import javax.swing.text.DefaultHighlighter.DefaultHighlightPainter;
 public class calc{
     public static  void  main(String args[]) {
         int a,b;
