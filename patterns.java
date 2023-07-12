@@ -19,6 +19,7 @@ public class patterns {
             System.out.println(" ");
 
         }
+        sc.close();
     }
     
 }
