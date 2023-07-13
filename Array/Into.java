@@ -9,6 +9,8 @@ public class Into {
     //size of int-4 Bytes
     //size of char-1 Byte
 
+    //array stores the 0 when nothing is sotred but space is allocated
+
     //creation:
     public static void main(String args[]){
         int marks[]=new int[5];
