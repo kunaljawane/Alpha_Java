@@ -1,6 +1,6 @@
 package Array;
 
-public class Into {
+public class Intro {
 
     //arrays is the data structure like list where element stored in the contagious memory block
     //had index start from 0
