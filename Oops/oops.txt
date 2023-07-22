@@ -1,0 +1,78 @@
+Access modifier:
+    public:accesible everywhere
+    private:accesible only within the class and not to package
+    protected:accesibel to class and within the package
+    
+getter function- function that used to get the value 
+                 function that return the value
+Setter function- function that used to set the value
+                 function that give the value to any variable
+
+Four pillar of oops:
+1]Encapsulation
+    Wrapping of data and methods into the single unit
+    also implements the data hiding
+2]Abstraction
+3}Polymorphism
+4]Inhertance
+
+Constructor:
+ It is the special function that used to initialize variable  
+ has no return type
+ can be called automatically only once
+ has same name as the class
+ in java if we dont decalre the constructor then it automatically makes the constructor
+ but only difference it it cant initialize the value
+
+Types of constructor:
+ if the program has many constructor then know as the constructor overlading(different parms)
+ which is the type of Polymorphism
+1-Non-parmeterized
+2-parmeterized
+3-copy constructor:
+    if we want to copy the properties of one object to the other
+
+Destuctor:
+in java we dont declare the Destuctor it automatically desrtucted by the garbage collector
+
+
+Inhertance:
+properties of base class in passed to the derived class
+
+Types:
+1-single level inheritance-
+ one derived class extends one base class
+2-Multi level inheritance-
+ more than two classed
+3-Hierarchical
+ many classed derive from the one base class
+4-Hybrid
+ combination of every type of inheritance
+
+Abstract class
+ you have to write Abstract in from of class
+ it can contain abstarct or non abstarct methods
+ we cant create the object of the abstarct class
+ it can have constructor-
+  to initialize the variable for the child class
+  the class which is declared first can give the output
+
+Inteface:
+ is a blue print of class
+ used to implements muliple inheritance
+ c extends b extends abstarct
+ used to implements total Abstraction
+ defined by the keyword Inteface 
+ Inteface methods are public and abstarct and can be implements
+ variable in the Inteface can be public static and final
+
+static keyword;
+ static-constant that cant be change for the different objectwe 
+ we can make properties function block of code static
+ also nested class can be made static
+ main function is static because we want to create only one main function
+ avoid the multiple creation
+
+Super:
+ use to refer to the immmediate parent class object
+ to access the properties function and constructor of parent class
