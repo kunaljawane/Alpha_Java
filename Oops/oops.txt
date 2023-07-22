@@ -76,3 +76,13 @@ static keyword;
 Super:
  use to refer to the immmediate parent class object
  to access the properties function and constructor of parent class
+
+class cant be private and protected then it become inaccesible
+it can be only public and default
+
+car c(Refernce )=new car() (object)
+
+we can crate the child object with the parent Refernce but cant be create parents object with child Refernce
+
+nested class also know as the aggregation
+
