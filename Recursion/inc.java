@@ -4,7 +4,7 @@ public class inc {
     {
         if(n==1)
         {
-            System.out.println(n);
+            System.out.print(n);
             return;
         }
         print(n-1);
