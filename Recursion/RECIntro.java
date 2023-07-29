@@ -1,4 +1,4 @@
-public class Intro {
+public class RECIntro {
 
 
     public static void main(String args[])
