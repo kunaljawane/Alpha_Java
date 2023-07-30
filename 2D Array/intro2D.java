@@ -1,5 +1,5 @@
 import java.util.*;
-public class intro {
+public class intro2D {
 
     public static void main(String args[])
     {
