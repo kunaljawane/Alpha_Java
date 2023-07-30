@@ -4,14 +4,27 @@ public class Reverse_swap {
 
     public static void print(int arr[])
     {
+        // int start=0;
+        // int end=arr.length-1;
+
+        // while(start<=end)
+        // {
+        //     int temp=arr[start];
+        //     arr[start]=arr[end];
+        //     arr[end]=temp;
+        //     start++;
+        //     end--;
+        // }
+
         int start=0;
         int end=arr.length-1;
 
-        while(start>end)
+        while(start<=end)
         {
             int temp=arr[start];
             arr[start]=arr[end];
             arr[end]=temp;
+
             start++;
             end--;
         }
@@ -19,7 +32,7 @@ public class Reverse_swap {
 
         for(int i=0;i<arr.length;i++)
         {
-            System.out.print(arr[i]+"-->");
+            System.out.print(arr[i]+" ");
         }
 
 
