@@ -7,17 +7,16 @@ public class prac1 {
 
         for(int i=0;i<str.length();i++)
         {
-            char ch=str.charAt(i);
+            int ch=str.charAt(i);
+
             if(Character.isLowerCase(ch))
             {
                 lowCount+=1;
-            }
-            else{ //Charcter.isUpper consider space as the uppercase word
-                if(ch!=' ')
-                {
+
+            }else{
+                if(ch!=' '){
                     upCount+=1;
                 }
-                
             }
         }
 

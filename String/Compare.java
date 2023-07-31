@@ -10,7 +10,7 @@ public class Compare {
 
         if(s1==s2)
         {
-            System.out.println("they are equal");
+            System.out.println("They are equal");
         }
         else{
             System.out.println("They are not equal");

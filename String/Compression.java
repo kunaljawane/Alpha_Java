@@ -6,6 +6,7 @@ public class Compression {
 
         String result="";
 
+        
         for(int i=0;i<str.length();i++)
         {
             Integer count=1;
@@ -21,7 +22,6 @@ public class Compression {
             {
                 result+=count.toString();
             }
-
         }
 
         System.out.print(result);

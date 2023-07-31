@@ -1,7 +1,7 @@
 public class compare2 {
     public static void main(String args[])
     {
-        String str1="Apple";
+        String str1="Mango"; //This is small
 
         String str2="mango";
 
