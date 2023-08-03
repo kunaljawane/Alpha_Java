@@ -7,15 +7,10 @@ public class QuickSort {
         {
             return;
         }
-
-    
         int pindex=pidx(arr,si,ei);
 
         quickS(arr, si, pindex-1); //for left part
         quickS(arr, pindex+1, ei); //for right part
-
-
-
     }
 
     public static int pidx(int arr[],int si,int ei)

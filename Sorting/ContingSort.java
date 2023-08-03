@@ -12,7 +12,7 @@ public class ContingSort {
         int count[]=new int[largest+1];
         for(int i=0;i<arr.length;i++)
         {
-            count[arr[i]]++;
+            count[arr[i]]++; //increse the value in count array for arr[i];
 
         }
 
@@ -53,4 +53,4 @@ public class ContingSort {
 
 //it is used for the array with the small range
 //in this you have to made another array named as count which can store the frequency of the element
-
+//Time complextiy O(n+k) where n=total number of element and k=range of element

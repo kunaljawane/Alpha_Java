@@ -3,10 +3,10 @@ public class InsertionSort{
     {
         for(int i=1;i<arr.length;i++)
         {
-            int curr=arr[i];
-            int prev=i-1;
+            int curr=arr[i]; //int curr=second element 
+            int prev=i-1; //in pre=first element
 
-            while(prev>=0 && arr[prev]>curr)
+            while(prev>=0 && arr[prev]>curr) //previous in greater than current
             {
                 arr[prev+1]=arr[prev];
                 prev--;
