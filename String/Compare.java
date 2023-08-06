@@ -8,7 +8,7 @@ public class Compare {
         String s1="kunal";
         String s2=new String("kunal");
 
-        if(s1==s2)
+        if(s1==s2) //==points to the memory locations
         {
             System.out.println("They are equal");
         }
@@ -17,7 +17,7 @@ public class Compare {
         }
 
         if(s1.equals(s2)) //when we use .equals opeator we can treate them as equal
-        {
+        {//it check for actual equality word by word
             System.out.println("They are equal");
 
         }
