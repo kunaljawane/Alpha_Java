@@ -37,41 +37,41 @@ public class CycleLL {
 
     public static void removeCycle()
     {   
-        //detect cycle
-        Node slow=head;
-        Node fast=head;
+    //     //detect cycle
+    //     Node slow=head;
+    //     Node fast=head;
 
-        boolean cycle=false;
+    //  //   boolean cycle=false;
 
-        while(fast!=null && fast.next!=null)
-        {
-            slow=slow.next;
-            fast=fast.next.next;
-            if(slow==fast)
-            {
-                cycle=true;
-                break; //cycle detected
-            }
-        }
-        if(cycle=false)
-        {
-            return;
-        }
+    //     while(fast!=null && fast.next!=null)
+    //     {
+    //         slow=slow.next;
+    //         fast=fast.next.next;
+    //         if(slow==fast)
+    //         {
+    //             cycle=true;
+    //             break; //cycle detected
+    //         }
+    //     }
+    //     if(cycle=false)
+    //     {
+    //         return;
+    //     }
 
-        //find the meeting point
-        slow=head;
-        Node prev=null;
-        while(slow!=fast)
-        {
-            prev=fast;
-            slow=slow.next;
-            fast=fast.next;
-        }
+    //     //find the meeting point
+    //     slow=head;
+    //     Node prev=null;
+    //     while(slow!=fast)
+    //     {
+    //         prev=fast;
+    //         slow=slow.next;
+    //         fast=fast.next;
+    //     }
 
-        //whenever the loop ends then prev will point to node before the meeting point;
+    //     //whenever the loop ends then prev will point to node before the meeting point;
 
-        //remove cycle
-        prev.next=null;
+    //     //remove cycle
+    //     prev.next=null;
 
 
 
