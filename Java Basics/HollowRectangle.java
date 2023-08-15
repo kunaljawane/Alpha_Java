@@ -18,7 +18,7 @@ public class HollowRectangle {
 
     public static void main(String args[])
     {
-        print(2, 10);
+        print(10, 10);
 
     }
     

@@ -10,7 +10,7 @@ public class PairsInArray {
 
         for(int i=0;i<pairs.length;i++)
         {
-            for(int j=1;j<pairs.length;j++)
+            for(int j=0;j<pairs.length;j++)
             {
                 System.out.print("["+pairs[i]+","+pairs[j]+"] ");
                 count+=1;

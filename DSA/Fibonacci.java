@@ -29,4 +29,4 @@ public class Fibonacci{
 
 //fibonacci series is the series of numbers in which the number is the sum of two
 //preceding numbers
-//0,1,1,2,3,5..
+//0,1,1,2,3,5...

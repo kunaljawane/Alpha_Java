@@ -9,13 +9,13 @@ public class Spiral {
 
         while(startRow<=endRow && startCol<=endCol)
         {
-            //top
+            //top-row is fixed as startRow
             for(int j=startCol;j<endCol-1;j++)
             {
                 System.out.print(matrix[startRow][j]+" ");
             }
 
-            //right
+            //right-column is fixed as endColumn
             for(int i=startRow+1;i<endCol-1;i++)
             {
                 System.out.println(matrix[i][endCol]+" ");

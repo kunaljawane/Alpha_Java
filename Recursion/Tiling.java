@@ -11,6 +11,7 @@ public class Tiling {
         int nm2=tiling(n-2);
 
         return nm1+nm2;
+        
 
     }
 

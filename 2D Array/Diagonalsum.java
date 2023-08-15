@@ -6,7 +6,7 @@ public class Diagonalsum {
     {
         int sum1=0;
         int sum2=0;
-
+        //for left diagonal i==j
         for(int i=0;i<matrix.length;i++)
         {
             for(int j=0;j<matrix[0].length;j++)
@@ -17,6 +17,8 @@ public class Diagonalsum {
                 }
             }
         }
+
+        //for right diagonal i+j==matrix.length-1
 
         for(int i=0;i<matrix.length;i++){
             for(int j=0;j<matrix.length;j++)

@@ -39,4 +39,5 @@ public class BInary_search {
 }
 
 //Time complexity is O(logn)
+//for bin search we need a sorted array
 
