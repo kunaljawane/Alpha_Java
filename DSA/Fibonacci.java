@@ -20,9 +20,28 @@ public class Fibonacci{
 
     }
 
+    //fib with recursion
+
+    public static int fib(int n)
+    {
+        if(n==0||n==1)
+        {
+            return 1;
+        }
+
+        int fnm1=fib(n-1);
+        int fnm2=fib(n-1);
+
+        int fb=fnm1+fnm2;
+
+        return fb;
+    }
+
     public static void main(String args[])
     {
-        print(11);
+        print(10);
+        System.out.println();
+        System.out.println(fib(10));
     }
 
 }

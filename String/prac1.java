@@ -13,7 +13,7 @@ public class prac1 {
             {
                 lowCount+=1;
 
-            }else{
+            }else{//character.isUpperCase() treates the space as the uppercase letter
                 if(ch!=' '){
                     upCount+=1;
                 }

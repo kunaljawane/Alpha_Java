@@ -1,10 +1,12 @@
+import java.util.Arrays;
+
 public class LexicoCompare {
 
     public static void main(String args[])
 
     //lexicographically- alphabetically order
     {
-        String str[]={"mango","zanana","apple"};
+        String str[]={"mango","zanana","apple","Apple"};
 
       
 
@@ -18,9 +20,19 @@ public class LexicoCompare {
             }
         }
 
+        Arrays.sort(str);
+
+        for(int i=0;i<str.length;i++)
+        {
+            System.out.println(str[i]);
+        }
 
 
-        System.out.print(Largest);
+        
+
+
+
+        //System.out.print(Largest);
     }
     
 }

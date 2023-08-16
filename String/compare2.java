@@ -13,3 +13,6 @@ public class compare2 {
     }
     
 }
+
+
+//while comparing it will treat the uppercase as smaller than the lowercase of the same char

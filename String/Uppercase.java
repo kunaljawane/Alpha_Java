@@ -21,10 +21,12 @@ public class Uppercase {
         //     }
         // }
 
-        char ch=Character.toUpperCase(str.charAt(0));
-        st.append(ch);
+        char ch=str.charAt(0);
 
-        for(int i=1;i<str.length();i++){
+        st.append(Character.toUpperCase(ch));
+
+        for(int i=1;i<str.length();i++)
+        {
             if(str.charAt(i)==' ' && i<str.length()-1)
             {
                 st.append(str.charAt(i));
@@ -33,7 +35,9 @@ public class Uppercase {
             }else{
                 st.append(str.charAt(i));
             }
+
         }
+
         System.out.print(st.toString());
     }
     

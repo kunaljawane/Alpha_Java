@@ -81,4 +81,4 @@ public class LLPrac {
 }
 
 
-//The best usecase of the link list is forward and backward button in the in chrome tab
+//The best usecase of the link list is forward and backward button in the in chrome tab for shifting the tabs

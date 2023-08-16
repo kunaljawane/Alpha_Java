@@ -118,7 +118,7 @@ public class LLpalindrom {
         list.addFirst(2);
         list.addFirst(1);
         list.addLast(2);
-        list.addLast(2);
+        list.addLast(1);
         
         list.print();
 
