@@ -1,7 +1,7 @@
 Access modifier:
     public:accesible everywhere
     private:accesible only within the class and not to package
-    protected:accesibel to class and within the package
+    protected:accesible to class and within the package
     
 getter function- function that used to get the value 
                  function that return the value
@@ -13,8 +13,12 @@ Four pillar of oops:
     Wrapping of data and methods into the single unit
     also implements the data hiding
 2]Abstraction
+    hiding the unnecessary part and showing only needed
 3}Polymorphism
-4]Inhertance
+    function overloading
+    function overriding
+4]Inheritance
+    multiple is not supported 
 
 Constructor:
  It is the special function that used to initialize variable  
@@ -25,7 +29,7 @@ Constructor:
  but only difference it it cant initialize the value
 
 Types of constructor:
- if the program has many constructor then know as the constructor overlading(different parms)
+ if the program has many constructor then know as the constructor overloading(different parms)
  which is the type of Polymorphism
 1-Non-parmeterized
 2-parmeterized
@@ -38,6 +42,7 @@ in java we dont declare the Destuctor it automatically desrtucted by the garbage
 
 Inhertance:
 properties of base class in passed to the derived class
+parent clss ==> child class
 
 Types:
 1-single level inheritance-

@@ -2,6 +2,8 @@ public class ContingSort {
 
     public static void sort(int arr[])
    {
+
+        //for finding the largest
         int largest=Integer.MIN_VALUE;
 
         for(int i=0;i<arr.length;i++)
@@ -54,3 +56,5 @@ public class ContingSort {
 //it is used for the array with the small range
 //in this you have to made another array named as count which can store the frequency of the element
 //Time complextiy O(n+k) where n=total number of element and k=range of element
+
+//this sorting is the non-comparision based sorting
