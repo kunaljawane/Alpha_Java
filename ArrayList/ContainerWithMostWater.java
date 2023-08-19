@@ -14,6 +14,8 @@ public class ContainerWithMostWater {
                 int area=ht*wd; //calculate area
                 maxWater=Math.max(maxWater,area);
 
+                
+
             }
         }
 
