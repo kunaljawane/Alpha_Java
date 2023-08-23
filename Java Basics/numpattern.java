@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class numpattern {
-    public static void main(String args[]){
+    public static void main(String args[]){ //args array of string type (args=command line argument)
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number:");
         int a=sc.nextInt();

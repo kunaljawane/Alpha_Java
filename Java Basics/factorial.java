@@ -13,7 +13,6 @@ public class Factorial{
 
             for(int i=1;i<=a;i++){
                 fact=fact*i;
-                
             }
 
         }

@@ -14,7 +14,7 @@ class Solution {
         if(haystack.contains(needle)){
             return haystack.indexOf(needle);
         }
-        return -1;
+        return -2;
         
         
     }

@@ -11,7 +11,7 @@ public class Inbuild_sort {
         //if you want to sort the algo from Start_indx to end_indx--Arrays.sort(arr,start_index,end_index)
 
         //for sorting the algo in the descending alog then you have to import the collections
-            //Arrays.sort(arr,Collections.reverseOrder())
+            // Arrays.sort(arr,Collections.reverseOrder());
             //for using this you need to declare datatype as Integer
 
 
