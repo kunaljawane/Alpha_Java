@@ -54,6 +54,8 @@ Types:
 4-Hybrid
  combination of every type of inheritance
 
+java dont show the multiple inheritance
+
 Abstract class
  you have to write Abstract in from of class
  it can contain abstarct or non abstarct methods
