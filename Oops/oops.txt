@@ -2,13 +2,13 @@ Access modifier:
     public:accesible everywhere
     private:accesible only within the class and not to package
     protected:accesible to class and within the package
-    
+
 getter function- function that used to get the value 
                  function that return the value
 Setter function- function that used to set the value
                  function that give the value to any variable
 
-Four pillar of oops:
+Four pillar of oops:(Asked me in oracle interview)
 1]Encapsulation
     Wrapping of data and methods into the single unit
     also implements the data hiding
@@ -92,4 +92,3 @@ car c(Refernce )=new car() (object)
 we can crate the child object with the parent Refernce but cant be create parents object with child Refernce
 
 nested class also know as the aggregation
-
