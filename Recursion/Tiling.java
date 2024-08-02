@@ -27,3 +27,12 @@ public class Tiling {
 
 //given the 2*n floor and tile of size 2*1 find the number of way to tile the given floor with tiles
 //tile either can be placed horizontally or vertically 
+
+
+
+
+
+
+
+
+
