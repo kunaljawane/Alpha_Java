@@ -1,23 +1,21 @@
 import java.util.*;
-public class StackJCF {
-    public static void main(String args[])
-    {
-        Stack<Integer> s=new Stack<>();
+
+class StackJCF{
+
+
+    public static void main(String[] args) {
+        System.out.println("Stack implementation using Java Collection Framework");
+
+        Stack<Integer> s = new Stack<>();
 
         s.push(1);
         s.push(2);
         s.push(3);
+        s.push(4);
 
-        System.out.println(s);
-
-        s.pop();
-
-        System.out.println(s);
-
-        int n=s.peek();
-
-        System.out.println(n);
-
+        while(!s.isEmpty()){
+           System.out.println(s.peek());
+           s.pop();
+        }
     }
-    
 }
