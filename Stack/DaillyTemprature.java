@@ -12,7 +12,7 @@ possible, keep answer[i] == 0 instead.
 
 import java.util.*;
 
-class Solution {
+class DailyTemperatures {
     public int[] dailyTemperatures(int[] temperatures) {
         
         Stack<Integer> stack = new Stack<>();
